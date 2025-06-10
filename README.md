@@ -55,3 +55,6 @@
 4. **docker up**
     ```bash
     docker compose up -d
+5. **after update npm-build**
+   ```bash
+   docker exec -it node npm run build
